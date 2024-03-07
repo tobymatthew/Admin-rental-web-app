@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@200&display=swap");
+
+.idContainer {
+  padding-left: 5%;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 3%;
+}
+
+.infoContainer {
+  display: flex;
+  flex-wrap:wrap;
+ 
+}
+
+.infoHeader-container{
+  padding-top: 3em;
+ margin-bottom:10em;
+}
+
+
+.infoColumn2 {
+  margin-left: 10%;
+}
+
+.infoRow {
+  margin-bottom: 20%;
+}
+
+.infoHeader {
+  color: #4c4c4c;
+  font-weight: 500;
+  font-size: 0.875em;
+}
+
+.infoSubHeader-container{
+  margin-bottom:0.5em;
+}
+
+.infoSubHeader {
+  color: #808080;
+  font-size: 1.125em;
+  font-weight: 600;
+}
+
+.vehicleFeaturesRow {
+  padding-right: 10%;
+}
+
+.vehicleFeaturesColumnH1 {
+  color: #1a321e;
+  font-size: 1.3em;
+  font-weight:bold;
+  
+}
+.vehicleFeaturesColumn{
+  margin-bottom: 1.2em;
+}
+.comment {
+  font-size: 0.75em;
+}
+
+.navigateComments {
+  display: flex;
+  font-size: 0.75em;
+}
+
+.previous {
+  color: #9f9f9f;
+  margin-right: 4%;
+}
+
+.star {
+  color: #ff9c00;
+  font-size: 0.75em;
+}
+
+.user101 {
+  font-size: 0.75em;
+}
+
+.action {
+  color:white;
+  font-size: 0.85em;
+  background-color:#2b5332;
+  margin-bottom: 0.8em;
+  border-radius: 360px;
+  padding:0.5rem;
+  box-shadow: 2px 6px 6px -16px rgba(0,0,0,0.51);
+  -webkit-box-shadow: 2px 6px 6px -16px rgba(0,0,0,0.51);
+  -moz-box-shadow: 2px 6px 6px -16px rgba(0,0,0,0.51);
+}
+
+.vehicleActivity {
+  margin-right: 20%;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5em;
+  margin-bottom: 1.5em;
+  /* justify-content: space-between; */
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+}
+
+.user-image {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.button-link{
+  font-size: 0.8em;
+}
+
+.button-link-action{
+  text-decoration: underline;
+  margin-bottom: 0.4em;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 22px;
+  color: #4c4c4c;
+}
+
+.first-name,
+.last-name {
+  font-size: 14px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+
+.vehicleH1{
+   font-size: 2em;
+   color: #4c4c4c;
+   margin-bottom: 0.4em;
+}
+
+.mainImgContainer {
+  width: 100%;
+  max-width: 316px;
+  height: 19.5vw;
+  display: flex;
+  margin-left: 2em;
+  margin-right: 2em; 
+}
+
+.mainImg {
+  border-radius: 10px;
+}
+
+/* .mainImgContainer{
+  width: 316px;
+  height: 20px;
+  margin-left: 2em;
+  margin-right: 2em; 
+} */
+
+/* .sideImgContainer{
+  display: flex;
+} */
+
+.sideImgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.sideImg {
+  max-width: 64px;
+  height: 46px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  margin-right: 1.5em;
+  border-radius: 6px;
+}
+
+/* .sideImg {
+  height: 46px;
+  width: 64px;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+} */
+
+.actionHeader{
+  margin-top: 0.9em;
+}
+
+
+@media only screen and (max-width: 1178px) {
+  .infoHeader-container {
+    display: flex;
+    margin-top: 2em;
+  }
+  .sideContainer {
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1em;
+  }
+  
+}
